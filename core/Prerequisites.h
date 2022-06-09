@@ -3,10 +3,14 @@
 
 #include "Platform.h"
 
-namespace Explore {
-	class Plugin;
-	class PluginManager;
-}
+#include <memory>
+#include <string>
 
+namespace Explore {
+
+class Plugin;
+class PluginManager;
+
+} // namespace Explore
 
 #endif // !EXPLORE_PREREQUISITES_H
